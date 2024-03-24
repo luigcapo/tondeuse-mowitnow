@@ -23,7 +23,7 @@ Pour lancer l'ensemble des tests utilisés :
   mvn test
 ```
 
-Pour lancer l'application de manière autonome avec un fichier de test, executer dans le terminal:
+Pour lancer l'application de manière autonome avec un fichier de test, executer dans le terminal (en remplace la valeure de Dexec.args par votre le chemin vers votre nom de fichier):
 
 ```bash
   mvn -q exec:java -Dexec.args="path-vers-le-fichier-a-tester"
