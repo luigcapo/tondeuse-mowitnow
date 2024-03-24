@@ -15,7 +15,7 @@ Afin de pouvoir utiliser l’application, il faut d’abord cloner le repository
 ```
 Ensuite ouvrir le terminal et se positionner sur le répertoire du projet tondeuse-MowItNow.
 
-Pour lancer l'application de manière autonome avec un fichier de test executer dans le terminal:
+Pour lancer l'application de manière autonome avec un fichier de test, executer dans le terminal:
 
 ```bash
   mvn -q exec:java -Dexec.args="/home/Documents/kata"
@@ -30,21 +30,18 @@ Pour lancer l'ensemble des tests utilisés :
 
 Pour un fichier  
 5 5 
-
 1 2 N 
-
 GAGAGAGAA 
-
 3 3 E 
-
 AADAADADDAAA
 
 On aura comme resultat 
-
 1 3 N
-
 5 1 E
 
+## Notes
+Le projet a été réalisé en utilisant la version 21 de java. 
+Une exception de type IllegalArgumentException est levée lorsqu’on tente de positionner la tondeuse sur une position hors de la pelouse
 
 
 
