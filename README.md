@@ -17,17 +17,18 @@ Ensuite ouvrir le terminal et se positionner sur le répertoire du projet tondeu
 ```bash
   cd tondeuse-mowitnow/
 ```
+Pour lancer l'ensemble des tests utilisés :
+
+```bash
+  mvn test
+```
 
 Pour lancer l'application de manière autonome avec un fichier de test, executer dans le terminal:
 
 ```bash
   mvn -q exec:java -Dexec.args="/home/Documents/kata"
 ```
-Pour lancer l'ensemble des tests utilisés :
 
-```bash
-  mvn test
-```
 
 ## Demo
 
