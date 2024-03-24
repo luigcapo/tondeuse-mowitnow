@@ -14,6 +14,9 @@ Afin de pouvoir utiliser l’application, il faut d’abord cloner le repository
   git clone https://github.com/luigcapo/tondeuse-mowitnow.git
 ```
 Ensuite ouvrir le terminal et se positionner sur le répertoire du projet tondeuse-MowItNow.
+```bash
+  cd tondeuse-mowitnow/
+```
 
 Pour lancer l'application de manière autonome avec un fichier de test, executer dans le terminal:
 
