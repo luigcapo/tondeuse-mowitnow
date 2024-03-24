@@ -26,7 +26,7 @@ Pour lancer l'ensemble des tests utilisés :
 Pour lancer l'application de manière autonome avec un fichier de test, executer dans le terminal:
 
 ```bash
-  mvn -q exec:java -Dexec.args="/home/Documents/kata"
+  mvn -q exec:java -Dexec.args="path-vers-le-fichier-a-tester"
 ```
 
 
@@ -42,6 +42,9 @@ AADAADADDAAA
 On aura comme resultat 
 1 3 N
 5 1 E
+
+![Screenshot](https://github.com/luigcapo/tondeuse-mowitnow/assets/32091655/24df2b0e-b2a2-4fea-8075-fa9d674c87be)
+
 
 ## Notes
 Le projet a été réalisé en utilisant la version 21 de java. 
