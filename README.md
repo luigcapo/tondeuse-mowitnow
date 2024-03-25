@@ -33,14 +33,15 @@ Pour lancer l'application de manière autonome avec un fichier de test, executer
 ## Demo
 
 Pour un fichier  
-5 5 
-1 2 N 
-GAGAGAGAA 
-3 3 E 
+5 5\
+1 2 N\
+GAGAGAGAA\
+3 3 E\
 AADAADADDAAA
 
 On aura comme resultat 
-1 3 N
+
+1 3 N\
 5 1 E
 
 ![Screenshot](https://github.com/luigcapo/tondeuse-mowitnow/assets/32091655/24df2b0e-b2a2-4fea-8075-fa9d674c87be)
